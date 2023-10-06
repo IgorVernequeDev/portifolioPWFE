@@ -1,0 +1,51 @@
+/* DOCUMENTO CSS /*
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    background-color: bisque;
+}
+.box {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 3%;
+    margin: 100px auto;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 7%;
+
+}
+button {
+    display: flex;  
+    justify-content: center;
+    padding: 4%;
+    border-radius: 10%;
+}
+h1 {
+    color: white;
+    margin-bottom: 5%;
+}
+label {
+    color: white;
+}
+p {
+    margin-top: 5%;
+    color: white;
+}
+.botoes {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+input {
+    margin-top: 10%;
+}

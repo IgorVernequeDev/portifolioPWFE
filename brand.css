@@ -1,0 +1,166 @@
+/* DOCUMENTO CSS /*
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav {
+	height: 80px;
+	background-color: #ffffff;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	padding: 15px 50px;
+	text-decoration: none;
+	color: #000;
+	transition: 0.4s;
+	font-weight: 700;
+    border: solid black 2px;
+}
+nav ul li a:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+.preto {
+    background-color: black;
+    width: 50%;
+    height: 500px;
+}
+.vermelho {
+    background-color: #ED3237;
+    width: 50%;
+    height: 500px;
+}
+.verde {
+    background-color: #7ED957;
+    width: 50%;
+    height: 500px;
+}
+.branco {
+    background-color: white;
+    width: 50%;
+    height: 500px;
+}
+.total {
+    display: flex;
+}
+.total2 {
+    display: flex;
+}
+.oficial {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-family: PlayFair Display;
+    font-size: 50px;
+}
+.principal {
+    background-color: #D4D1CE;
+    height: 25em;
+}
+.branca {
+    justify-content: center;
+    display: flex;
+}
+.fotobranca {
+    width: 350px;
+    margin-top: 90px;
+}
+.preta {
+    justify-content: center;
+    display: flex;
+}
+.fotopreta {
+    width: 360px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.vermelha {
+    justify-content: center;
+    display: flex;
+}
+.fotovermelha {
+    width: 360px;
+    margin-top: 60px;
+}
+.verdee {
+    justify-content: center;
+    display: flex;
+}
+.fotoverde {
+    width: 350px;
+    margin-top: 70px;
+}
+.txt {
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+    font-family: PlayFair Display;
+    font-size: 50px;
+}
+.txt2 {
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+    font-family: PlayFair Display;
+    font-size: 50px;
+}
+.txt3 {
+    color: #000;
+    text-align: center;
+    margin-top: 40px;
+    font-family: PlayFair Display;
+    font-size: 50px;
+    margin-right: 10px;
+}
+.div1 {
+    justify-content: space-around;
+    display: flex;
+}
+.texto1 {
+    margin-top: 100px;
+}
+.texto2 {
+    margin-top: 100px;
+}
+.div2 {
+    display: flex;
+}
+.tela_preta {
+    border-radius: 200px;
+    width: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.cores {
+    display: flex;
+}
+.tela_branca {
+    border-radius: 200px;
+    width: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.tela_verde {
+    border-radius: 200px;
+    width: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.texto1 {
+    margin-left: 10%;
+}
+.texto2 {
+    margin-right: 10%;
+}

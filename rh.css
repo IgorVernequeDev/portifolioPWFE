@@ -1,0 +1,129 @@
+/* DOCUMENTO CSS /*
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2b9c;
+    height: 8em;
+}
+.menu {
+    color: black;
+    background-color: rgb(181, 181, 181);
+    height: 20em;
+    width: 25%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6em;
+    flex-direction: column;
+}
+.titulo {
+    margin: 1em;
+}
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.logo {
+    color: white;
+}   
+.acessar {
+    background-color: #2b2b9c;
+    border-radius: 10%;
+    padding: 1em;
+    width: 8em;
+    margin: 1em;
+    border: 0;
+    cursor: pointer;
+}
+.cadastrar {
+    background-color: #2b2b9c;
+    border-radius: 10%;
+    padding: 1em;
+    width: 8em;
+    margin: 1em;
+    border: 0;
+    cursor: pointer;
+}
+.sair {
+    background-color: #e10909b3;
+    border-radius: 10%;
+    padding: 1em;
+    width: 8em;
+    margin: 1em;
+    border: 0;
+    cursor: pointer;
+}
+.principal1 {
+    background-color: rgb(181, 181, 181);
+    margin: 10em;
+    padding: 4em;
+}
+.title {
+    margin: 3em;
+}
+.principal2 {
+    margin: 4em;
+}
+.continuar {
+    margin-top: 5em;
+}
+.botao_continuar {
+    padding: 2em;
+    background-color: #2b2b9c;
+    cursor: pointer;
+}
+.entrar {
+    padding: 2em;
+    background-color: #2b2b9c;
+    cursor: pointer;
+    margin-top: 20%;
+}
+.login {
+    color: black;
+    background-color: rgb(181, 181, 181);
+    height: 20em;
+    width: 25%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15em;
+    margin-left: 35em;
+}
+button {
+    color: white;
+}
+input {
+    margin-top: 2%;
+}
+label {
+    margin-top: 5%;
+}
+.box {
+    color: black;
+    background-color: rgb(181, 181, 181);
+    height: 20em;
+    width: 25%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6em;
+    flex-direction: column;
+    margin: 200px auto;
+}

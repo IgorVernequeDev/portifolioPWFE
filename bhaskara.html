@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolvendo Bhaskara</title>
+    <link rel="stylesheet" href="bhaskara.css"></link>
+</head>
+<body>
+    <div class="box">
+        <h1>Fórmula de Bhaskara △</h1>
+        <div class="box1">
+        <label for="valor_a">Valor de A</label>
+        <input type="number" name="valor_a" id="valor_a">
+        </div>
+        <br>
+        <div class="box2">
+        <label for="valor_b">Valor de B</label>
+        <input type="number" name="valor_b" id="valor_b">
+        </div>
+        <br>
+        <div class="box3">
+        <label for="valor_c">Valor de C</label>
+        <input type="number" name="valor_c" id="valor_c">
+        </div>
+        <button onclick="bhaskara()">Calcular</button>
+        <p id="calculo" style="color:white">O resultado aparecerá aqui...</p>
+        <a href="menu.html"><button class="voltar">VOLTAR</button></a>
+    </div>
+    <script src="logica.js"></script>
+</body>
+</html>

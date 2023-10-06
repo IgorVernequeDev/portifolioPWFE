@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situação do aluno</title>
+    <link rel="stylesheet" href="bhaskara.css"></link>
+</head>
+<body>
+    <div class="box">
+        <h1>Situação do aluno</h1>
+        <div class="box1">
+        <label for="nome_aluno">Nome do Aluno</label>
+        <input type="text" name="nome_aluno" id="nome_aluno">
+        </div>
+        <br>
+        <div class="box2">
+        <label for="nota_1">Nota no primeiro bimestre</label>
+        <input type="number" name="nota_1" id="nota_1" max="10">
+        </div>
+        <br>
+        <div class="box3">
+        <label for="nota_2">Nota no segundo semestre</label>
+        <input type="number" name="nota_2" id="nota_2" max="10">
+        </div>
+        <button onclick="situacao()">Resposta</button>
+        <p id="resultado" style="color:white">O resultado aparecerá aqui...</p>
+        <a href="menu.html"><button class="voltar">VOLTAR</button></a>
+    </div>
+    <script src="logica.js"></script>
+</body>
+</html>

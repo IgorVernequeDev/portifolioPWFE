@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>EXERCÍCIO 4</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="tech.css">
+    </head>
+    <body>
+        <script>
+        function updateProductImageDesktop(imageSrc) {
+            document.getElementById('product-image').src = imageSrc;
+            descricao.innerHTML = `<p style="color:white">Desktop <br><br> Intel i5, processador AMD <br> 16 GB de RAM <br> SSD de 1TB <br> Windows 10 Pro</p>`
+            preco.innerHTML = `<p style="color:white">R$159,99</p>`
+        }
+        function updateProductImageKeyboard(imageSrc) {
+            document.getElementById('product-image').src = imageSrc;
+            descricao.innerHTML = `<p style="color:white">HyperX Teclado Gamer <br><br> Barra luminosa exclusiva HyperX e efeitos de iluminação RGB dinâmicos <br><br> Ideal para gamers que buscam melhorar o estilo e desempenho do seu teclado.</p>`
+            preco.innerHTML = `<p style="color:white">R$2519,99</p>`
+        }
+        function updateProductImageMouse(imageSrc) {
+            document.getElementById('product-image').src = imageSrc;
+            descricao.innerHTML = `<p style="color:white">Mouse Gamer HyperX Pulsefire Surge <br><br> Oferece aos jogadores o melhor em estilo e conteúdo, oferecendo extrema precisão graças a seu sensor Pixart 3389 e efeitos de iluminação RGB espetaculares em 360°.</p>`
+            preco.innerHTML = `<p style="color:white">R$124,90</p>`
+        }
+    </script>
+        <aside>
+            <nav>
+                <ul>
+                    <div class="container1">
+                <figure>
+                    <img src="notebook.jpg" class="pc" alt="Miniatura 1" onmousemove="updateProductImageDesktop('notebook.jpg')">
+                </figure>
+                <figure>
+                    <img src="teclado.png" class="teclado" alt="Miniatura 2" onmousemove="updateProductImageKeyboard('teclado.png')">
+                <figure>
+                    <img src="mouse.webp" class="mouse" alt="Miniatura 3" onmousemove="updateProductImageMouse('mouse.webp')">
+            </div>
+                </figure>
+            </div>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <img src="notebook.jpg" alt="Imagem Principal" class="product-image" id="product-image">
+            </main>
+            <div class="container2">
+                <h2 id="descricao">Texto descritivo do item</h2>
+                <div class="compra">
+                    <h3 id="preco" >Preço</h3>
+                    <button class="button-6" role="button">COMPRAR</button>
+            </div>
+            </div>
+    </body>
+</html>

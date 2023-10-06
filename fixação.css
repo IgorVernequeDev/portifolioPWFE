@@ -1,0 +1,93 @@
+/* DOCUMENTO CSS /*
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+body {
+    background-color: #a95c5c
+}
+.linha1 {
+    display: flex;
+    margin: 5%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    border: 2px solid white;
+}
+.box2 {
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    border: 2px solid white;
+}
+.box3 {
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    border: 2px solid white;
+}
+.box4 {
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    border: 2px solid white;
+}
+h2 {
+    font-size: 1.4em;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border: 2px solid white;
+}
+.linha2 {
+    display: flex;
+}
+.linha3 {
+    display: flex;
+    margin: 5%;
+    justify-content: space-around;
+}
+.texto1 {
+    display: flex;
+    width: 20%; 
+}
+.texto2 {
+    display: flex;
+    width: 20%; 
+}
+.texto3 {
+    display: flex;
+    width: 20%; 
+}
+.texto4 {
+    display: flex;
+    width: 20%; 
+}
+p {
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border: 2px solid white;
+}
+.aguinha {
+    margin-left: 10%;
+}
+.foguin {
+    margin-left: 11%;
+}
+.terrinha {
+    margin-left: 10.5%;
+}
+.arzin {
+    margin-left: 12%;
+}

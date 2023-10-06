@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Show</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>Cadastro Show</h1>
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="idade">
+        </div>
+        <div>
+            <label for="dias">Dias</label>
+            <input type="number" name="dias" id="dias">
+        </div>
+        <p>O preço do ingresso é de R$1000</p>
+        <br>
+        <div class="botoes">
+        <button onclick="resposta()">Resultado</button>
+        </div>
+        <br>
+        <p id="res" style="color:white">A resposta aparecerá aqui...</p>
+        <a href="menu.html"><button class="voltar">VOLTAR</button></a>
+    </div>
+    <script src="logica.js"></script>
+</body>
+
+</html>
